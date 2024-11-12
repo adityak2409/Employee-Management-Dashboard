@@ -1,0 +1,11 @@
+<div class="card-list">
+    <div class="card" *ngFor="let employee of employees">
+      <div class="card-body">
+        <h5 class="card-title">{{ employee.name }}</h5>
+        <p class="card-text"><strong>Email:</strong> <span>{{ employee.email }}</span></p>
+        <p class="card-text"><strong>Department:</strong> <span>{{ employee.department }}</span></p>
+        <p class="card-text"><strong>Joining Date:</strong> <span>{{ employee.joiningDate }}</span></p>
+      </div>
+    </div>
+  </div>
+  
